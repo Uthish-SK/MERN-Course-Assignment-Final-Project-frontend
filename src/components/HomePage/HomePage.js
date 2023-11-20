@@ -1,14 +1,14 @@
 import HomePageParticle from "./subcomponents/HomePageParticle"
 import NavBar from "./subcomponents/NavBar"
-import EmptyComponent from "./subcomponents/EmptyComponent"
 import AboutUs from "./subcomponents/AboutUs"
+import Main from "./subcomponents/Main"
 
 const HomePage = () => {
   return (
     <div className="container">
       <HomePageParticle />
       <NavBar />
-      <EmptyComponent />
+      <Main />
       <AboutUs />
     </div>
   )
